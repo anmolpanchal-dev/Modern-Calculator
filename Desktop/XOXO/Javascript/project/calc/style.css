@@ -87,3 +87,11 @@
     .equal:hover {
       background: #44bd32;
     }
+    .delete {
+      background: #ffa502;
+      color: white;
+    }
+
+    .delete:hover {
+      background: #ff7f00;
+}

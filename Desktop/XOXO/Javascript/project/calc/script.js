@@ -1,9 +1,22 @@
+let operators = ["+", "-", "*", "/"];
 let currentDisplay = "";
 
     function press(value) {
-      currentDisplay += value;
-      document.getElementById("display").value = currentDisplay;
-    }
+  let lastChar = currentDisplay.slice(-1);
+
+  if (operators.includes(lastChar) && operators.includes(value)) {
+    return;
+  }
+  currentDisplay += value;
+  document.getElementById("display").value = currentDisplay;
+}
+
+function deleteLast() {
+  currentDisplay = currentDisplay.slice(0, -1);
+  document.getElementById("display").value = currentDisplay;
+}
+
+
 
     function clearDisplay() {
       currentDisplay = "";
