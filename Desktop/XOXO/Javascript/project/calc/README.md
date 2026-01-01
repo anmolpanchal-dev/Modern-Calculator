@@ -8,14 +8,12 @@ It performs basic arithmetic operations with a clean UI and smooth user experien
 - Clear (C) button to reset calculations
 - Error handling for invalid expressions
 - Responsive and modern UI design
+- Added a new feature to delete a single character
+- and added a feature that only one operator is chosen at a time
 
 ### 🛠️ Tech Stack
 - HTML
 - CSS
 - JavaScript
 
-### 🚀 Live Demo
-(Add your GitHub Pages link here)
 
-### 📸 Preview
-(Add screenshot here)
